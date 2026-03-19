@@ -1,8 +1,8 @@
-# Wagmios Marketplace
+# Container Marketplace
 
 > Pre-configured Docker Compose templates for self-hosted apps.
 
-**Browse the live marketplace:** https://mentholmike.github.io/marketplace
+**Browse the live marketplace:** https://marketplace.wagmilabs.fun
 
 ---
 
