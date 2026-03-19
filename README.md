@@ -1,19 +1,26 @@
 # Wagmios Marketplace
 
-Self-hosted app marketplace for [Wagmios](https://github.com/mentholmike/wagmios) — a Docker container management dashboard with AI agent support.
+> Pre-configured Docker Compose templates for self-hosted apps.
+
+**Browse the live marketplace:** https://mentholmike.github.io/marketplace
+
+---
 
 ## Overview
 
-This marketplace contains pre-configured Docker Compose templates for popular self-hosted applications. Each app is defined as a simple markdown file that AI agents can read to install services on your server.
+This marketplace contains Docker Compose templates for 35+ popular self-hosted applications. Each app is defined as a simple markdown file that AI agents can read to install services on your server.
 
-## For Users
+**Powered by [Wagmios](https://github.com/mentholmike/wagmios)** — a Docker container management dashboard with AI agent support.
 
-Browse available apps at the docs site (coming soon). Each app shows:
-- Description and category
-- Default port
-- Required and optional configuration
+---
 
-Ask your Wagmios agent to install any app from the marketplace.
+## Browse Apps
+
+The marketplace is live at **https://mentholmike.github.io/marketplace**
+
+Browse by category, search for apps, and click any card to view the full Docker Compose template on GitHub.
+
+---
 
 ## For AI Agents
 
@@ -50,6 +57,8 @@ Content-Type: application/json
 ```
 
 The agent fills in user preferences, submits, and the human approves in the Wagmios dashboard before the app is installed.
+
+---
 
 ## App Structure
 
@@ -89,6 +98,8 @@ services:
 ```
 ```
 
+---
+
 ## Categories
 
 - AI & ML
@@ -102,10 +113,16 @@ services:
 - Media Servers
 - Monitoring
 - Networking
+- Notifications
+- Photo & Video
 - Productivity
+- Search
 - Security
 - Torrents
+- Utilities
 - VPN
+
+---
 
 ## Contributing
 
@@ -114,6 +131,8 @@ To add a new app:
 1. Create `apps/{app-name}.md` with the template structure
 2. Add the app to `manifest.json` with id, name, description, category, logo, and defaultPort
 3. Test the Docker Compose template manually before submitting
+
+---
 
 ## License
 
