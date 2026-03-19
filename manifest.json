@@ -1,0 +1,236 @@
+{
+  "version": "1.0",
+  "updated": "2026-03-19T22:53:00Z",
+  "apps": [
+    {
+      "id": "plex",
+      "name": "Plex Media Server",
+      "description": "Stream your media anywhere. Organize and stream your movies, TV shows, music, and photos to any device.",
+      "category": "Media Servers",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/plex.svg",
+      "defaultPort": 32400,
+      "verified": true,
+      "popularity": 4.8
+    },
+    {
+      "id": "sonarr",
+      "name": "Sonarr",
+      "description": "Smart PVR for newsgroup and bittorrent users. Automatically downloads TV shows via Usenet or BitTorrent.",
+      "category": "Arr Stack",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/sonarr.svg",
+      "defaultPort": 8989,
+      "verified": true,
+      "popularity": 4.7
+    },
+    {
+      "id": "radarr",
+      "name": "Radarr",
+      "description": "Movie collection manager for Usenet and BitTorrent users. Automatically finds and downloads movies.",
+      "category": "Arr Stack",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/radarr.svg",
+      "defaultPort": 7878,
+      "verified": true,
+      "popularity": 4.8
+    },
+    {
+      "id": "prowlarr",
+      "name": "Prowlarr",
+      "description": "Indexer manager and proxy for your Arr stack. Manages all your indexers in one place.",
+      "category": "Arr Stack",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/prowlarr.svg",
+      "defaultPort": 9696,
+      "verified": true,
+      "popularity": 4.6
+    },
+    {
+      "id": "jellyfin",
+      "name": "Jellyfin",
+      "description": "The free software media system. Stream your media to any device with no fees and no tracking.",
+      "category": "Media Servers",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/jellyfin.svg",
+      "defaultPort": 8096,
+      "verified": true,
+      "popularity": 4.6
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "description": "Self-hosted AI model runner. Run Llama, Mistral, and other open-source AI models locally.",
+      "category": "AI & ML",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/ollama.svg",
+      "defaultPort": 11434,
+      "verified": true,
+      "popularity": 4.7
+    },
+    {
+      "id": "nextcloud",
+      "name": "Nextcloud",
+      "description": "Self-hosted productivity platform. File sync, share, calendar, contacts, and more.",
+      "category": "Cloud Storage",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/nextcloud.svg",
+      "defaultPort": 8080,
+      "verified": true,
+      "popularity": 4.9
+    },
+    {
+      "id": "homeassistant",
+      "name": "Home Assistant",
+      "description": "Open source home automation platform focused on privacy and local control.",
+      "category": "Home Automation",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/webp/home-assistant-light.webp",
+      "defaultPort": 8123,
+      "verified": true,
+      "popularity": 4.8
+    },
+    {
+      "id": "portainer",
+      "name": "Portainer",
+      "description": "Container management made easy. Web interface for managing Docker containers and stacks.",
+      "category": "Container Management",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/portainer.svg",
+      "defaultPort": 9000,
+      "verified": true,
+      "popularity": 4.9
+    },
+    {
+      "id": "grafana",
+      "name": "Grafana",
+      "description": "Analytics and monitoring solution. Visualize metrics, logs, and traces in customizable dashboards.",
+      "category": "Analytics",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/grafana.svg",
+      "defaultPort": 3000,
+      "verified": true,
+      "popularity": 4.7
+    },
+    {
+      "id": "vaultwarden",
+      "name": "Vaultwarden",
+      "description": "Bitwarden compatible password manager. Self-hosted alternative to Bitwarden, written in Rust.",
+      "category": "Security",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/vaultwarden.svg",
+      "defaultPort": 80,
+      "verified": true,
+      "popularity": 4.7
+    },
+    {
+      "id": "uptime-kuma",
+      "name": "Uptime Kuma",
+      "description": "Self-hosted monitoring tool. Monitor your servers and services with a beautiful dashboard.",
+      "category": "Monitoring",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/uptime-kuma.svg",
+      "defaultPort": 3001,
+      "verified": true,
+      "popularity": 4.7
+    },
+    {
+      "id": "jackett",
+      "name": "Jackett",
+      "description": "API support for torrent trackers. Translates queries from Sonarr/Radarr to tracker-specific queries.",
+      "category": "Search",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/jackett.svg",
+      "defaultPort": 9117,
+      "verified": true,
+      "popularity": 4.5
+    },
+    {
+      "id": "minecraft",
+      "name": "Minecraft Server",
+      "description": "Minecraft Java Edition Server. Host your own multiplayer Minecraft world.",
+      "category": "Gaming",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/minecraft.svg",
+      "defaultPort": 25565,
+      "verified": true,
+      "popularity": 4.7
+    },
+    {
+      "id": "pihole",
+      "name": "Pi-hole",
+      "description": "Network-wide ad blocking. Block ads on your entire network at the DNS level.",
+      "category": "Networking",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/pihole.svg",
+      "defaultPort": 80,
+      "verified": true,
+      "popularity": 4.8
+    },
+    {
+      "id": "adguard",
+      "name": "AdGuard Home",
+      "description": "Network-wide ad blocker with DNS customization. Similar to Pi-hole with a modern web interface.",
+      "category": "Networking",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/adguard.svg",
+      "defaultPort": 3000,
+      "verified": true,
+      "popularity": 4.6
+    },
+    {
+      "id": "prometheus",
+      "name": "Prometheus",
+      "description": "Monitoring system and time series database. Collects and stores metrics from configured targets.",
+      "category": "Monitoring",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/prometheus.svg",
+      "defaultPort": 9090,
+      "verified": true,
+      "popularity": 4.6
+    },
+    {
+      "id": "n8n",
+      "name": "n8n",
+      "description": "Workflow automation tool. Automate tasks between apps with a visual workflow editor.",
+      "category": "Productivity",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/n8n.svg",
+      "defaultPort": 5678,
+      "verified": true,
+      "popularity": 4.5
+    },
+    {
+      "id": "glances",
+      "name": "Glances",
+      "description": "Cross-platform system monitoring tool. Monitor CPU, memory, disk, network, and processes in real-time.",
+      "category": "Monitoring",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/glances.svg",
+      "defaultPort": 61208,
+      "verified": true,
+      "popularity": 4.4
+    },
+    {
+      "id": "transmission",
+      "name": "Transmission",
+      "description": "Lightweight BitTorrent client. Simple, efficient, and cross-platform torrent downloading.",
+      "category": "Torrents",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/transmission.svg",
+      "defaultPort": 9091,
+      "verified": true,
+      "popularity": 4.5
+    },
+    {
+      "id": "qbittorrent",
+      "name": "qBittorrent",
+      "description": "Free and open-source BitTorrent client. Lightweight alternative to Transmission with a web UI.",
+      "category": "Torrents",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/qbittorrent.svg",
+      "defaultPort": 8080,
+      "verified": true,
+      "popularity": 4.6
+    },
+    {
+      "id": "wireguard",
+      "name": "WireGuard",
+      "description": "Fast and secure VPN. Modern VPN protocol with simple setup and excellent performance.",
+      "category": "VPN",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/wireguard.svg",
+      "defaultPort": 51820,
+      "verified": true,
+      "popularity": 4.7
+    },
+    {
+      "id": "influxdb",
+      "name": "InfluxDB",
+      "description": "Time series database. Store and query time series data for monitoring and analytics.",
+      "category": "Database",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/influxdb.svg",
+      "defaultPort": 8086,
+      "verified": true,
+      "popularity": 4.5
+    }
+  ]
+}
