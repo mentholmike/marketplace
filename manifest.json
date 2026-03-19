@@ -341,16 +341,6 @@
       "defaultPort": 8080,
       "verified": true,
       "popularity": 4.6
-    },
-    {
-      "id": "nanocloud",
-      "name": "NanoCloud",
-      "description": "Self-hosted file sharing and collaboration. Share files with anyone via links.",
-      "category": "Cloud Storage",
-      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/nanocloud.svg",
-      "defaultPort": 4000,
-      "verified": true,
-      "popularity": 4.2
     }
   ]
 }
