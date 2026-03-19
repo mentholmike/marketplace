@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-03-19T23:10:00Z",
+  "updated": "2026-03-19T23:16:00Z",
   "apps": [
     {
       "id": "plex",
@@ -301,6 +301,56 @@
       "defaultPort": 18789,
       "verified": true,
       "popularity": 4.5
+    },
+    {
+      "id": "gluetun",
+      "name": "Gluetun",
+      "description": "VPN container for routing Docker services through WireGuard or OpenVPN.",
+      "category": "VPN",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/gluetun.svg",
+      "defaultPort": 8888,
+      "verified": true,
+      "popularity": 4.5
+    },
+    {
+      "id": "dockurr",
+      "name": "Dockurr",
+      "description": "Docker container builder and runner with a web interface.",
+      "category": "Container Management",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/dockurr.svg",
+      "defaultPort": 8080,
+      "verified": true,
+      "popularity": 4.3
+    },
+    {
+      "id": "nginx",
+      "name": "Nginx",
+      "description": "Web server and reverse proxy. Serve websites and route traffic with SSL support.",
+      "category": "Networking",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/nginx.svg",
+      "defaultPort": 80,
+      "verified": true,
+      "popularity": 4.9
+    },
+    {
+      "id": "filebrowser",
+      "name": "Filebrowser",
+      "description": "Self-hosted file manager with a web interface. Upload, download, and manage files.",
+      "category": "Cloud Storage",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/filebrowser.svg",
+      "defaultPort": 8080,
+      "verified": true,
+      "popularity": 4.6
+    },
+    {
+      "id": "nanocloud",
+      "name": "NanoCloud",
+      "description": "Self-hosted file sharing and collaboration. Share files with anyone via links.",
+      "category": "Cloud Storage",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/nanocloud.svg",
+      "defaultPort": 4000,
+      "verified": true,
+      "popularity": 4.2
     }
   ]
 }
