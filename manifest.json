@@ -313,14 +313,14 @@
       "popularity": 4.5
     },
     {
-      "id": "dockurr",
-      "name": "Dockurr",
-      "description": "Docker container builder and runner with a web interface.",
-      "category": "Container Management",
-      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/dockurr.svg",
-      "defaultPort": 8080,
+      "id": "windows",
+      "name": "Windows (Docker)",
+      "description": "Run Windows 10/11 in Docker via noVNC. A full Windows desktop in your browser.",
+      "category": "Gaming",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/windows.svg",
+      "defaultPort": 8006,
       "verified": true,
-      "popularity": 4.3
+      "popularity": 4.7
     },
     {
       "id": "nginx",
