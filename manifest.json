@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-03-19T22:53:00Z",
+  "updated": "2026-03-19T23:10:00Z",
   "apps": [
     {
       "id": "plex",
@@ -65,7 +65,7 @@
     {
       "id": "nextcloud",
       "name": "Nextcloud",
-      "description": "Self-hosted productivity platform. File sync, share, calendar, contacts, and more.",
+      "description": "Self-hosted productivity platform. File sync, share, calendar, contacts, tasks, and more.",
       "category": "Cloud Storage",
       "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/nextcloud.svg",
       "defaultPort": 8080,
@@ -81,16 +81,6 @@
       "defaultPort": 8123,
       "verified": true,
       "popularity": 4.8
-    },
-    {
-      "id": "portainer",
-      "name": "Portainer",
-      "description": "Container management made easy. Web interface for managing Docker containers and stacks.",
-      "category": "Container Management",
-      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/portainer.svg",
-      "defaultPort": 9000,
-      "verified": true,
-      "popularity": 4.9
     },
     {
       "id": "grafana",
@@ -229,6 +219,86 @@
       "category": "Database",
       "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/influxdb.svg",
       "defaultPort": 8086,
+      "verified": true,
+      "popularity": 4.5
+    },
+    {
+      "id": "immich",
+      "name": "Immich",
+      "description": "Self-hosted photo and video backup solution. Automatically backs up photos and videos from your phone.",
+      "category": "Photo & Video",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/immich.svg",
+      "defaultPort": 2283,
+      "verified": true,
+      "popularity": 4.7
+    },
+    {
+      "id": "openwebui",
+      "name": "Open WebUI",
+      "description": "User-friendly WebUI for AI models. Chat with Ollama and other LLMs through a clean interface.",
+      "category": "AI & ML",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/openwebui.svg",
+      "defaultPort": 8080,
+      "verified": true,
+      "popularity": 4.6
+    },
+    {
+      "id": "supabase",
+      "name": "Supabase",
+      "description": "Self-hosted Firebase alternative. Database, auth, storage, and real-time APIs for your apps.",
+      "category": "Database",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/supabase.svg",
+      "defaultPort": 5432,
+      "verified": true,
+      "popularity": 4.5
+    },
+    {
+      "id": "puter",
+      "name": "Puter",
+      "description": "Self-hosted cloud operating system. A full desktop environment in your browser.",
+      "category": "Cloud Storage",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/puter.svg",
+      "defaultPort": 4000,
+      "verified": true,
+      "popularity": 4.4
+    },
+    {
+      "id": "rsshub",
+      "name": "RSSHub",
+      "description": "Open source RSS feed generator. Generate RSS feeds from websites that don't have them.",
+      "category": "Utilities",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/rsshub.svg",
+      "defaultPort": 1200,
+      "verified": true,
+      "popularity": 4.3
+    },
+    {
+      "id": "novu",
+      "name": "Novu",
+      "description": "Open source notification infrastructure. Send transactional emails, SMS, push, and in-app notifications.",
+      "category": "Notifications",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/novu.svg",
+      "defaultPort": 3000,
+      "verified": true,
+      "popularity": 4.4
+    },
+    {
+      "id": "web-check",
+      "name": "Web-Check",
+      "description": "All-in-one website recon and analysis tool. Check SSL, DNS, headers, cookies, and 100+ metrics.",
+      "category": "Utilities",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/web-check.svg",
+      "defaultPort": 3000,
+      "verified": true,
+      "popularity": 4.3
+    },
+    {
+      "id": "openclaw",
+      "name": "OpenClaw",
+      "description": "AI-native container management platform. Control Docker via Slack, Discord, Telegram, and more.",
+      "category": "Container Management",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/openclaw.svg",
+      "defaultPort": 18789,
       "verified": true,
       "popularity": 4.5
     }
