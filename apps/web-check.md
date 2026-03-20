@@ -3,7 +3,7 @@ id: web-check
 name: Web-Check
 category: utilities
 description: All-in-one website recon and analysis tool. Check SSL, DNS, headers, cookies, and 100+ other metrics for any website.
-image: alicesec/web-check:latest
+image: lissy93/web-check:latest
 ports: [3000]
 environment:
   - name: TZ
@@ -39,7 +39,7 @@ Web-Check is an all-in-one website reconnaissance and analysis tool. Enter any U
 ```yaml
 services:
   web-check:
-    image: alicesec/web-check:latest
+    image: lissy93/web-check:latest
     container_name: web-check
     ports:
       - "3000:3000"
