@@ -38,3 +38,15 @@ Works with OpenClaw agents. The agent accumulates knowledge and maintains contin
 | Volume | Description |
 |--------|-------------|
 | `lethe-data` | SQLite database and persistent data |
+
+## Setup
+
+1. **Install the Lethe skill** (enables memory capabilities in your OpenClaw agent):
+   ```
+   openclaw bundles install clawhub:lethe
+   ```
+   Then restart your gateway: `openclaw gateway restart`
+
+2. **Deploy the Lethe server** via this marketplace listing (provides the backend memory store).
+
+The skill and the container work together — the skill runs in your agent, the container provides persistent storage.
