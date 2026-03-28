@@ -341,6 +341,16 @@
       "defaultPort": 8080,
       "verified": true,
       "popularity": 4.6
+    },
+    {
+      "id": "lethe",
+      "name": "Lethe",
+      "description": "Persistent memory layer for AI agents. Every decision, observation, task, and flag persists across sessions.",
+      "category": "AI & ML",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/brain.svg",
+      "defaultPort": 18483,
+      "verified": true,
+      "popularity": 4.9
     }
   ]
 }
