@@ -5,7 +5,7 @@
       "name": "Lethe",
       "description": "Persistent memory layer for AI agents. Gives your agent long-term memory across sessions.",
       "category": "AI & ML",
-      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/lethe.svg",
+      "logo": "https://raw.githubusercontent.com/mentholmike/marketplace/main/docs/images/lethe-logo.svg",
       "defaultPort": 8080,
       "verified": true,
       "popularity": 4.0
@@ -25,7 +25,7 @@
       "name": "Open WebUI",
       "description": "User-friendly WebUI for AI models. Chat with Ollama and other LLMs through a clean, open source interface.",
       "category": "AI & ML",
-      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/openwebui.svg",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/open-webui.svg",
       "defaultPort": 8080,
       "verified": true,
       "popularity": 4.0
@@ -95,7 +95,7 @@
       "name": "Filebrowser",
       "description": "Self-hosted file manager with a web interface. Upload, download, and manage files on your server through a clean UI.",
       "category": "Cloud Storage",
-      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/filebrowser.svg",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/file-browser.svg",
       "defaultPort": 8080,
       "verified": true,
       "popularity": 4.0
@@ -115,7 +115,7 @@
       "name": "Puter",
       "description": "Self-hosted cloud operating system. A full desktop environment in your browser with files, apps, and more.",
       "category": "Cloud Storage",
-      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/puter.svg",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/web.svg",
       "defaultPort": 4000,
       "verified": true,
       "popularity": 4.0
@@ -185,7 +185,7 @@
       "name": "Windows (Docker)",
       "description": "Run Windows in Docker. A complete Windows 10/11 environment in your browser via noVNC.",
       "category": "Gaming",
-      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/windows.svg",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/windows-terminal.svg",
       "defaultPort": 8006,
       "verified": true,
       "popularity": 4.0
@@ -195,7 +195,7 @@
       "name": "Home Assistant",
       "description": "Open source home automation platform focused on privacy and local control.",
       "category": "Home Automation",
-      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/homeassistant.svg",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/home-assistant.svg",
       "defaultPort": 8123,
       "verified": true,
       "popularity": 4.0
@@ -315,7 +315,7 @@
       "name": "AdGuard Home",
       "description": "Network-wide ad blocker with DNS customization. Similar to Pi-hole with a modern web interface.",
       "category": "Networking",
-      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/adguard.svg",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/adguard-home.svg",
       "defaultPort": 53,
       "verified": true,
       "popularity": 4.0
@@ -345,7 +345,7 @@
       "name": "Pi-hole",
       "description": "Network-wide ad blocking. Block ads on your entire network at the DNS level.",
       "category": "Networking",
-      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/pihole.svg",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/pi-hole.svg",
       "defaultPort": 80,
       "verified": true,
       "popularity": 4.0
@@ -425,7 +425,7 @@
       "name": "Outline-Wiki",
       "description": "Fast, collaborative wiki for teams. Beautiful documentation with real-time editing and powerful search.",
       "category": "Productivity",
-      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/outline-wiki.svg",
+      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/outline.svg",
       "defaultPort": 3000,
       "verified": true,
       "popularity": 4.0

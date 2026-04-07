@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 50" style="height:32px;width:auto;overflow:visible;">
+  <path d="M 0,32 C 20,26 40,36 72,28 C 104,20 130,28 160,24" stroke="#1e6a96" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <text x="0" y="36" font-family="'Syne', Georgia, serif" font-size="38" font-weight="800" letter-spacing="-1.5" fill="#2c2520">Lethe</text>
+</svg>
