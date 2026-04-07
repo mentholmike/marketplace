@@ -115,7 +115,7 @@
       "name": "Puter",
       "description": "Self-hosted cloud operating system. A full desktop environment in your browser with files, apps, and more.",
       "category": "Cloud Storage",
-      "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/web.svg",
+      "logo": "https://raw.githubusercontent.com/mentholmike/marketplace/main/docs/images/puter.svg",
       "defaultPort": 4000,
       "verified": true,
       "popularity": 4.0
